@@ -10,11 +10,37 @@ using System.Windows.Forms;
 
 namespace appcontinuaforms
 {
-    public partial class Form1 : Form
+    public partial class frmPantallaPrincipal : Form
     {
-        public Form1()
+         
+        public frmPantallaPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void FrmPantallaPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btndock_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnProgramas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnDocentes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnProgramas_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
