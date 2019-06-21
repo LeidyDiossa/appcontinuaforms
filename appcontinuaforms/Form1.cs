@@ -18,29 +18,33 @@ namespace appcontinuaforms
             InitializeComponent();
         }
 
-        private void FrmPantallaPrincipal_Load(object sender, EventArgs e)
+        private void BtnAlumnos_Click(object sender, EventArgs e)
+        {
+            AbrirFormConsulta(new frmClickAlumnos());
+        }
+
+        private void Panel3_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void Btndock_Click(object sender, EventArgs e)
+        private void PictureBox1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
-        private void BtnProgramas_Click(object sender, EventArgs e)
+        private void AbrirFormConsulta(Object frmClickAlumnos)
         {
+            if (this.panelPrincipal.Controls.Count > 0)
+                this.panelPrincipal.Controls.RemoveAt(0);
+            Form fc = frmClickAlumnos as Form;
+            fc.TopLevel = false;
+            fc.Dock = DockStyle.Fill;
+            this.panelPrincipal.Controls.Add(fc);
+            this.panelPrincipal.Tag = fc;
+            fc.Show();
 
         }
-
-        private void BtnDocentes_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtnProgramas_Click_1(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
