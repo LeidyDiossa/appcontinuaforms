@@ -9,3 +9,14 @@ C:\Users\usuario\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.csproj
 C:\Users\usuario\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.exe
 C:\Users\usuario\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.pdb
 C:\Users\usuario\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.frmClickAlumnos.resources
+C:\Users\406-04\source\repos\appcontinuaforms\bin\Debug\appcontinuaforms.exe.config
+C:\Users\406-04\source\repos\appcontinuaforms\bin\Debug\appcontinuaforms.exe
+C:\Users\406-04\source\repos\appcontinuaforms\bin\Debug\appcontinuaforms.pdb
+C:\Users\406-04\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.csprojAssemblyReference.cache
+C:\Users\406-04\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.frmPantallaPrincipal.resources
+C:\Users\406-04\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.frmClickAlumnos.resources
+C:\Users\406-04\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.Properties.Resources.resources
+C:\Users\406-04\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.csproj.GenerateResource.cache
+C:\Users\406-04\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.csproj.CoreCompileInputs.cache
+C:\Users\406-04\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.exe
+C:\Users\406-04\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.pdb
