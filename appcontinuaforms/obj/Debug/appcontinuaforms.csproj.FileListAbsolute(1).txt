@@ -20,3 +20,5 @@ C:\Users\406-04\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.csproj.
 C:\Users\406-04\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.csproj.CoreCompileInputs.cache
 C:\Users\406-04\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.exe
 C:\Users\406-04\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.pdb
+C:\Users\usuario\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.frmregistraraspirante.resources
+C:\Users\usuario\source\repos\appcontinuaforms\obj\Debug\appcontinuaforms.InicioSesion.resources
