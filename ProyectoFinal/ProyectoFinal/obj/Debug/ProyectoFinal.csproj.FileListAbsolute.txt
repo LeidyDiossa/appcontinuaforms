@@ -1,0 +1,16 @@
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.exe.config
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.exe
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.pdb
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csprojAssemblyReference.cache
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.VentanaLogIn.resources
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Properties.Resources.resources
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.GenerateResource.cache
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.CoreCompileInputs.cache
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.exe
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\bin\Debug\MySql.Data.dll
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\bin\Debug\Google.Protobuf.dll
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\bin\Debug\MySql.Data.xml
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.CopyComplete
+C:\Users\SANTIAGO\Desktop\Visual Studio Ejemplos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Administrador.resources
