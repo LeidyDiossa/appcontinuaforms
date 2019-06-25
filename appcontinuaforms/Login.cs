@@ -20,8 +20,8 @@ namespace ProyectoFinal
         {
             InitializeComponent();
         }
-            [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
-            private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
 
@@ -41,6 +41,7 @@ namespace ProyectoFinal
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
+        //Complemento para poder mover ventana y panel 
         private void Panel1_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
@@ -52,6 +53,7 @@ namespace ProyectoFinal
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
@@ -129,6 +131,11 @@ namespace ProyectoFinal
                 txtUser.ForeColor = Color.DimGray;
                 txtPassword.UseSystemPasswordChar = false;
             }
+
+        }
+
+        private void Panel1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
