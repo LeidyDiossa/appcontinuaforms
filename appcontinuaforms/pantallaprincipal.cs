@@ -20,22 +20,8 @@ namespace appcontinuaforms
             InitializeComponent();
         }
 
-        // Código para mover ventana
 
-        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
-        private extern static void ReleaseCapture();
-        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
-        private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
-
-        private void BtnAlumnos_Click(object sender, EventArgs e)
-        {
-            AbrirFormConsulta(new frmClickAlumnos());
-        }
-        private void PictureBox1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
+        //METODO PARA QUE SE ABRA EN EL PANEL FORMULARIO DE CONSULTA DE ALUMNO
         private void AbrirFormConsulta(Object frmClickAlumnos)
         {
             if (this.panelPrincipal.Controls.Count > 0)
@@ -49,6 +35,11 @@ namespace appcontinuaforms
 
         }
 
+
+
+
+
+        //METODO PARA QUE SE ABRA EN EL PANEL FORMULARIO DE REGISTRAR ASPIRANTE
         private void AbrirFormRAspirante(Object frmRegistrarAspirante)
         {
             if (this.panelPrincipal.Controls.Count > 0)
@@ -62,9 +53,30 @@ namespace appcontinuaforms
 
         }
 
+        //CODIGO DEL BOTON DE REGISTRAR ASPIRANTES, DESPUES DE HABER HECHO EL METODO PARA QUE SE ABRA EN EL PANEL
         private void Button1_Click(object sender, EventArgs e)
         {
             AbrirFormRAspirante(new frmregistraraspirante());
+        }
+
+        //CODIGO DEL BOTON ALUMNOS DESPUES DE HABER HECHO EL METODO PARA QUE SE ABRA EN EL PANEL
+
+        private void BtnAlumnos_Click(object sender, EventArgs e)
+        {
+            AbrirFormConsulta(new frmClickAlumnos());
+        }
+
+        // Código para mover ventana
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
+
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
 
         //Complemento para poder mover ventana y panel 
@@ -91,6 +103,11 @@ namespace appcontinuaforms
         private void PictureBox2_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void PictureBox1_Click_2(object sender, EventArgs e)
+        {
+
         }
     }
 }

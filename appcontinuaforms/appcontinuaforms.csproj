@@ -49,6 +49,18 @@
   <ItemGroup>
     <Compile Include="Alumnos.cs" />
     <Compile Include="Docentes.cs" />
+    <Compile Include="Error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Error.Designer.cs">
+      <DependentUpon>Error.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioProgramas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioProgramas.Designer.cs">
+      <DependentUpon>FormularioProgramas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,7 +68,11 @@
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Personas.cs" />
-    <Compile Include="Programas.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="registraraspirante.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +94,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Usuarios.cs" />
+    <EmbeddedResource Include="Error.resx">
+      <DependentUpon>Error.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioProgramas.resx">
+      <DependentUpon>FormularioProgramas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,14 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -117,10 +134,25 @@
     <None Include="Resources\1464_1477072388.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\20130304093000_IUSH.jpg" />
+    <None Include="Resources\image.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\image.jpg" />
+    <None Include="Resources\examen %281%29 %281%29 %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estudiante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profesor %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diploma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plan-de-estudios.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

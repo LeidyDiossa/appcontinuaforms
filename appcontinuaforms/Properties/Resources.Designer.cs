@@ -63,9 +63,9 @@ namespace appcontinuaforms.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1464_1477072388 {
+        internal static System.Drawing.Bitmap diploma {
             get {
-                object obj = ResourceManager.GetObject("1464_1477072388", resourceCulture);
+                object obj = ResourceManager.GetObject("diploma", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,19 @@ namespace appcontinuaforms.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _20130304093000_IUSH {
+        internal static System.Drawing.Bitmap estudiante {
             get {
-                object obj = ResourceManager.GetObject("20130304093000_IUSH", resourceCulture);
+                object obj = ResourceManager.GetObject("estudiante", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap examen__1___1___1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("examen (1) (1) (1) (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -86,6 +96,36 @@ namespace appcontinuaforms.Properties {
         internal static System.Drawing.Bitmap image {
             get {
                 object obj = ResourceManager.GetObject("image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image__1_ {
+            get {
+                object obj = ResourceManager.GetObject("image (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap plan_de_estudios {
+            get {
+                object obj = ResourceManager.GetObject("plan-de-estudios", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap profesor__1_ {
+            get {
+                object obj = ResourceManager.GetObject("profesor (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
